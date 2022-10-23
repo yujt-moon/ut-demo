@@ -8,5 +8,5 @@ import org.junit.rules.ExpectedException;
  */
 public class ExpectedExceptionRule {
 
-    public ExpectedException thrown = new ExpectedException();
+    public ExpectedException thrown = ExpectedException.none();
 }
